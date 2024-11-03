@@ -1,0 +1,111 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    background-color: #ff5722;
+    color: white;
+    width: 55%;
+    margin-left: 23%;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+/* Estilo dos links de navegação */
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+/* Estilo dos artigos */
+article {
+    background-color: white;
+    border-radius: 30px;
+    width: 55%;
+    margin-left: 23%;
+}
+
+/* Estilo dos parágrafos dentro dos artigos */
+article p {
+    text-align: left;
+    margin: 0 15px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Estilo dos títulos dentro dos artigos */
+article h3,
+h2 {
+    text-align: center;
+}
+
+/* Estilo para tabelas */
+table {
+    width: 100%;
+}
+
+/* Estilo do rodapé */
+.rodapé {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 55%;
+    margin-left: 23%;
+    border-radius: 10px;
+}
+
+/* Estilo específico para a classe "macarrão" */
+.macarrão {
+    margin-left: 26%;
+    margin-bottom: 10px;
+}
+
+/* Estilo para centralizar o texto nas células da tabela */
+.quant {
+    text-align: center;
+}
+
+.valor {
+    text-align: center;
+}
+
+/* Estilo padrão (para desktops ou telas grandes) */
+body {
+    font-size: 18px;
+}
+
+/* Estilo do contêiner principal */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos para telas menores (tablets e celulares) */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+        /* Ajusta a largura do contêiner para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+        /* Reduz o tamanho da fonte em telas pequenas */
+    }
+
+    main {
+        width: 100%;
+        /* Deixa o contêiner ocupar toda a largura da tela */
+    }
+}
