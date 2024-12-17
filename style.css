@@ -1,0 +1,79 @@
+/*Padrão do código:
+1- Tamanho (Box Model)
+2- Estilização Visual e Tipografia
+3- Layout e Posicionamento */
+
+.receitas {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+}
+
+article h2,
+h3 {
+  text-align: center;
+}
+
+.txtFooter {
+  width: 95%;
+  margin: 5px auto;
+  background-color: #754f5b;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .imagens {
+    display: none;
+  }
+
+  input {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .apresentacao {
+    width: 97%;
+    margin: 5px auto;
+    background-color: #7d6167;
+    color: #e6dbd0;
+    border-radius: 10px;
+  }
+
+  .receitas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .imagens {
+    display: flex;
+    width: 100%;
+    height: 200px;
+  }
+
+  input {
+    display: flex;
+    background-color: #7d61677a;
+    width: 40%;
+    border: none;
+    color: #e6dbd0;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+  input {
+    display: flex;
+    background-color: #7d61677a;
+    width: 25%;
+    border: none;
+    color: #e6dbd0;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}

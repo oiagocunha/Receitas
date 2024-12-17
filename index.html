@@ -1,73 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas Deliciosas</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Receitas Deliciosas</title>
-  <!-- Link para o arquivo de estilo CSS específico para esta página -->
-  <link rel="stylesheet" href="./src/style/index.css">
-</head>
+  <body>
+    <header>
+      <h1>Receitas Deliciosas</h1>
+      <p>Encontre as melhores receitas para todas as ocasiões</p>
+      <nav>
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="./Components/bolo/bolo.html">Bolos</a>
+        <a class="link" href="./Components/massa/massa.html">Massas</a>
+        <a class="link" href="./Components/omelete/omelete.html">Omeletes</a>
+        <a class="link" href="./Components/contato/contato.html">Contato</a>
+      </nav>
+    </header>
 
-<body>
+    <main>
+      <article class="apresentacao">
+        <h2>Bem-vindo ao seu guia culinário</h2>
+        <p class="txtArticle">
+          Aqui você encontrará receitas práticas, sofisticadas e tradicionais,
+          para qualquer ocasião. Desde jantares românticos até almoços em
+          família, temos as melhores opções para você surpreender na cozinha.
+        </p>
+      </article>
 
-  <!-- Cabeçalho do site -->
-  <header>
-    <h1>Receitas Deliciosas</h1>
-    <p>Encontre as melhores receitas para todas as ocasiões</p>
-    <nav>
-      <!-- Links de navegação -->
-      <a href="index.html">Home</a>
-      <a href="./src/pages/bolo.html">Bolos</a>
-      <a href="./src/pages/massa.html">Massas</a>
-      <a href="./src/pages/omelete.html">Omeletes</a>
-      <a href="./src/pages/formulario.html">Contato</a>
-    </nav>
-  </header>
+      <section class="receitas">
+        <article>
+          <h3>Bolo Fofinho</h3>
+          <p class="txtArticle">
+            Um clássico delicioso, ideal para o café da tarde. Fácil de fazer e agrada a todos.
+          </p>
+          <a href="./Components/bolo/bolo.html">
+            <img class="imagens" src="Components/images/bolo.jpg" alt="Bolo Caseiro">
+            <input type="button" value="Ver Receita">
+          </a>
+          
+        </article>
+  
+        <article>
+          <h3>Macarronada Italiana</h3>
+          <p class="txtArticle">
+            Uma receita italiana clássica, com molho caseiro e o toque de manjericão fresco.
+          </p>
+          <a href="./Components/massa/massa.html">
+            <img class="imagens" src="Components/images/macarrao.jpeg" alt="Bolo Caseiro">
+            <input type="button" value="Ver Receita"> 
+          </a>
+        </article>
+  
+        <article>
+          <h3>Omelete Recheado</h3>
+          <p class="txtArticle">
+            Omelete recheado, prático e irresistível, perfeito para qualquer refeição.
+          </p>
+          <a href="./Components/omelete/omelete.html">
+            <img class="imagens" src="Components/images/omelete.jpeg" alt="Bolo Caseiro">
+            <input type="button" value="Ver Receita">
+          </a>
+        </article>
+      </section>
+    </main>
 
-  <main>
-    <!-- Seção de boas-vindas -->
-    <article>
-      <h2>Bem-vindo ao seu guia culinário</h2>
-      <p class="intro">
-        Aqui você encontrará receitas práticas, sofisticadas e tradicionais, para
-        qualquer ocasião. Desde jantares românticos até almoços em família, temos
-        as melhores opções para você surpreender na cozinha.
+    <footer>
+      <hr />
+      <p class="txtFooter">
+        Todos os direitos reservados &copy; Iago Cunha.
       </p>
-    </article>
-
-    <!-- Seção de receitas -->
-    <article>
-      <h3>Bolo de Cenoura</h3>
-      <p>
-        Um clássico delicioso, perfeito para o café da tarde. Fácil de
-        fazer e agrada a todos!
-      </p>
-    </article>
-
-    <article>
-      <h3>Macarronada Italiana</h3>
-      <p>
-        Receita tradicional italiana, com molho caseiro e o toque
-        especial de manjericão fresco.
-      </p>
-    </article>
-
-    <article>
-      <h3>Feijoada Completa</h3>
-      <p>
-        O prato mais tradicional da culinária brasileira, feito com os
-        melhores ingredientes.
-      </p>
-    </article>
-  </main>
-
-  <!-- Rodapé do site -->
-  <footer>
-    <hr>
-    <p class="rodapé" id="rodapé"> Todos os direitos reservados &copy; 2024 Receitas Deliciosas</p>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>

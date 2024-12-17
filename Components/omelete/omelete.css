@@ -1,0 +1,69 @@
+article h3,
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+.omelete {
+  width: 100%;
+  height: 200px;
+}
+
+.txtArticle {
+  margin: 10px 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+li {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+table {
+  width: 100%;
+}
+
+.infoGrama {
+  background-color: #ad7c86;
+  color: white;
+  padding: 10px;
+}
+
+th {
+  background-color: #976a74;
+}
+
+.txtFooter {
+  width: 95%;
+  margin: 5px auto;
+  background-color: #754f5b;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .omelete {
+    width: 80%;
+    height: 300px;
+    margin: 10px 10%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .omelete {
+    width: 60%;
+    height: 500px;
+    margin: 10px 20% 25px;
+  }
+}
+

@@ -1,0 +1,95 @@
+/*Padrão do código:
+1- Tamanho (Box Model)
+2- Estilização Visual e Tipografia
+3- Layout e Posicionamento */
+
+header {
+  width: 95%;
+  height: auto;
+  margin: 5px auto;
+  padding: 2px 0 5px;
+  background-color: #7d6167;
+  color: #e6dbd0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 5px;
+  color: white;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+article {
+  width: 90%;
+  margin: 5px auto;
+  background-color: #7d6167;
+  color: #e6dbd0;
+  border-radius: 10px;
+}
+
+.bolo {
+    width: 100%;
+    height: 200px;
+}
+
+article h2,
+h3 {
+  text-align: center;
+}
+
+li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+table {
+  width: 100%;
+}
+
+.infoGrama {
+    background-color: #ad7c86;
+    color: white;
+    padding: 10px;
+}
+
+th {
+    background-color: #976a74;
+}
+
+.txtFooter {
+  width: 95%;
+  margin: 5px auto;
+  background-color: #754f5b;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+@media (min-width: 600px) {
+    
+    .bolo {
+        width: 80%;
+        height: 300px;
+        margin: 10px 10%;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .bolo {
+        width: 60%;
+        height: 500px;
+        margin: 10px 20% 25px;
+    }
+}

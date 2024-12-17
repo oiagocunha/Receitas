@@ -5,42 +5,35 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Macarronada com Salsicha</title>
-  <!-- Link para o arquivo de estilo CSS específico para esta página -->
-  <link rel="stylesheet" href="../style/massa.css">
+  <link rel="stylesheet" href="../../global.css">
+  <link rel="stylesheet" href="massa.css">
 </head>
 
 <body>
-  <!-- Cabeçalho do site -->
   <header>
     <h1>Receitas Deliciosas</h1>
     <p>Encontre as melhores receitas para todas as ocasiões</p>
     <nav>
-      <!-- Links de navegação -->
       <a href="../../index.html">Home</a>
-      <a href="bolo.html">Bolos</a>
-      <a href="massa.html">Massas</a>
-      <a href="omelete.html">Omeletes</a>
-      <a href="formulario.html">Contato</a>
+      <a href="../bolo/bolo.html">Bolos</a>
+      <a href="../massa/massa.html">Massas</a>
+      <a href="../omelete/omelete.html">Omeletes</a>
+      <a href="../contato/contato.html">Contato</a>
     </nav>
   </header>
 
   <main>
-    <!-- Título principal da receita -->
-    <h2>Receita de Macarronada com Salsicha</h2>
-
-    <!-- Seção de descrição da receita -->
     <article>
-      <h3>Macarrão com Salsicha</h3>
-      <img class="macarrão" src="https://th.bing.com/th/id/OIP.m3w0YAC7FA-ZozE9XjeL1AHaC9?rs=1&pid=ImgDetMain"
+      <h2>Macarrão com Salsicha</h2>
+      <img class="macarrão" src="../images/macarrao.jpeg"
         alt="Macarronada com Salsicha" width="350px" />
-      <p>
+      <p class="txtArticle">
         Aprenda a fazer uma deliciosa macarronada com salsicha simples caseiro, perfeito para o
         almoço ou janta. Com poucos ingredientes e passos fáceis, você terá
         este macarrão delicioso em pouco tempo!
       </p>
     </article>
 
-    <!-- Seção de ingredientes -->
     <article>
       <h3>Ingredientes</h3>
       <ul>
@@ -55,7 +48,6 @@
       </ul>
     </article>
 
-    <!-- Seção de modo de preparo -->
     <article>
       <h3>Modo de Preparo</h3>
       <ol>
@@ -71,20 +63,18 @@
       </ol>
     </article>
 
-    <!-- Seção de informações nutricionais -->
     <article>
       <h3>Informações Nutricionais</h3>
-      <!-- Tabela com mesclagem de células -->
       <table>
         <tr>
-          <th colspan="5" style="background-color: #ff5722; color: white; padding: 10px;">
+          <th class="infoGrama" colspan="5">
             Valor nutricional aproximado por porção (baseado em 6 porções de 250g cada):
           </th>
         </tr>
         <tr>
-          <th style="background-color: #f9f9f9;">Nutriente</th>
-          <th style="background-color: #f9f9f9;">Quantidade</th>
-          <th style="background-color: #f9f9f9;">% Valor Diário*</th>
+          <th>Nutriente</th>
+          <th>Quantidade</th>
+          <th>% Valor Diário*</th>
         </tr>
         <tr>
           <td>Calorias</td>
@@ -122,7 +112,7 @@
           <td class="valor">39%</td>
         </tr>
         <tr>
-          <td colspan="3" style="background-color: #f1f1f1; text-align: center; padding: 10px;">
+          <td class="infoGrama" colspan="3">
             *Valores diários baseados em uma dieta de 2000 kcal.
           </td>
         </tr>
@@ -130,9 +120,10 @@
     </article>
   </main>
 
-  <!-- Rodapé do site -->
-  <footer class="rodapé">
-    <p>Todos os direitos reservados &copy; 2024 Receitas Deliciosas</p>
+  <footer>
+    <p class="txtFooter">
+      Todos os direitos reservados &copy; Iago Cunha.
+    </p>
   </footer>
 </body>
 

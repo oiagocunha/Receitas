@@ -5,43 +5,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bolo Simples</title>
-  <!-- Link para o arquivo de estilo CSS específico para esta página -->
-  <link rel="stylesheet" href="../style/bolo.css">
+  <link rel="stylesheet" href="../../global.css">
+  <link rel="stylesheet" href="bolo.css">
 </head>
 
 <body>
-  <!-- Cabeçalho do site -->
   <header>
     <h1>Receitas Deliciosas</h1>
     <p>Encontre as melhores receitas para todas as ocasiões</p>
     <nav>
-      <!-- Links de navegação -->
       <a href="../../index.html">Home</a>
-      <a href="bolo.html">Bolos</a>
-      <a href="massa.html">Massas</a>
-      <a href="omelete.html">Omeletes</a>
-      <a href="formulario.html">Contato</a>
+      <a href="../bolo/bolo.html">Bolos</a>
+      <a href="../massa/massa.html">Massas</a>
+      <a href="../omelete/omelete.html">Omeletes</a>
+      <a href="../contato/contato.html">Contato</a>
     </nav>
   </header>
 
   <main>
-    <!-- Título principal da receita -->
-    <h2>Receita de Bolo Simples</h2>
-
-    <!-- Seção de descrição da receita -->
-    <article>
-      <h3>Bolo Simples Caseiro</h3>
-      <img class="bolo"
-        src="https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2020/12/bolo-caseiro5-1024x683.jpg"
-        alt="Bolo Simples Caseiro" width="300px" />
-      <p>
+    <article class="foto">
+      <h2>Bolo Simples Caseiro</h2>
+      <img class="bolo" src="../images/bolo.jpg" alt="Bolo Simples Caseiro" width="300px" />
+      <p class="txtArticle">
         Aprenda a fazer um delicioso bolo simples caseiro, perfeito para o
         café da tarde. Com poucos ingredientes e passos fáceis, você terá
         um bolo fofinho e delicioso em pouco tempo!
       </p>
     </article>
 
-    <!-- Seção de ingredientes -->
     <article>
       <h3>Ingredientes</h3>
       <ul>
@@ -54,7 +45,6 @@
       </ul>
     </article>
 
-    <!-- Seção de modo de preparo -->
     <article>
       <h3>Modo de Preparo</h3>
       <ol>
@@ -67,20 +57,18 @@
       </ol>
     </article>
 
-    <!-- Seção de informações nutricionais -->
     <article>
       <h3>Informações Nutricionais</h3>
-      <!-- Tabela com mesclagem de células -->
       <table>
         <tr>
-          <th colspan="5" style="background-color: #ff5722; color: white; padding: 10px;">
+          <th class="infoGrama" colspan="5">
             Informações Nutricionais por Porção (100g)
           </th>
         </tr>
         <tr>
-          <th style="background-color: #f9f9f9;">Nutriente</th>
-          <th style="background-color: #f9f9f9;">Quantidade</th>
-          <th style="background-color: #f9f9f9;">% Valor Diário*</th>
+          <th>Nutriente</th>
+          <th>Quantidade</th>
+          <th>% Valor Diário*</th>
         </tr>
         <tr>
           <td>Calorias</td>
@@ -118,17 +106,18 @@
           <td>5%</td>
         </tr>
         <tr>
-          <td colspan="3" style="background-color: #f1f1f1; text-align: center; padding: 10px;">
-            *Valores diários baseados em uma dieta de 2000 kcal.
+          <td class="infoGrama" colspan="3">
+            <p>*Valores diários baseados em uma dieta de 2000 kcal.</p>
           </td>
         </tr>
       </table>
     </article>
   </main>
 
-  <!-- Rodapé do site -->
-  <footer class="rodapé">
-    <p>Todos os direitos reservados &copy; 2024 Receitas Deliciosas</p>
+  <footer>
+    <p class="txtFooter">
+      Todos os direitos reservados &copy; Iago Cunha.
+    </p>
   </footer>
 </body>
 

@@ -11,19 +11,21 @@ Este projeto é uma página web que apresenta diversas receitas culinárias, des
 ## Estrutura do Projeto
 
 ReceitasDeliciosas/  
-| ├── src/  
-| │   ├── pages/  
+| ├── Components/  
+| │   ├── bolo/  
 | │   │   ├── bolo.html  
+| │   │   └── bolo.css
+| │   ├── formulario/  
+| │   │   ├── formulario.html  
+| │   │   └── form.css
+| │   ├── massa/  
 | │   │   ├── massa.html  
+| │   │   └── massa.css
+| │   ├── omelete/  
 | │   │   ├── omelete.html  
-| │   │   └── formulario.html  
-| │   └── style/  
-| │       ├── bolo.css  
-| │       ├── massa.css  
-| │       ├── omelete.css  
-| │       ├── form.css  
-| │       └── index.css  
-| ├── index.html  
+| │   │   └── omelete.css
+| ├── index.css
+| ├── index.html
 | └── README.md  
 
 ## Tecnologias Utilizadas
