@@ -15,16 +15,17 @@ ReceitasDeliciosas/
 | │   ├── bolo/  
 | │   │   ├── bolo.html  
 | │   │   └── bolo.css
-| │   ├── formulario/  
-| │   │   ├── formulario.html  
-| │   │   └── form.css
+| │   ├── contato/  
+| │   │   ├── contato.html  
+| │   │   └── contato.css
 | │   ├── massa/  
 | │   │   ├── massa.html  
 | │   │   └── massa.css
 | │   ├── omelete/  
 | │   │   ├── omelete.html  
 | │   │   └── omelete.css
-| ├── index.css
+| ├── style.css
+| ├── global.css
 | ├── index.html
 | └── README.md  
 
