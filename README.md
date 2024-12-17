@@ -14,19 +14,19 @@ ReceitasDeliciosas/
 | ├── Components/  
 | │   ├── bolo/  
 | │   │   ├── bolo.html  
-| │   │   └── bolo.css
+| │   │   └── bolo.css  
 | │   ├── contato/  
 | │   │   ├── contato.html  
-| │   │   └── contato.css
+| │   │   └── contato.css  
 | │   ├── massa/  
 | │   │   ├── massa.html  
-| │   │   └── massa.css
+| │   │   └── massa.css  
 | │   ├── omelete/  
 | │   │   ├── omelete.html  
-| │   │   └── omelete.css
-| ├── style.css
-| ├── global.css
-| ├── index.html
+| │   │   └── omelete.css  
+| ├── style.css  
+| ├── global.css  
+| ├── index.html  
 | └── README.md  
 
 ## Tecnologias Utilizadas
