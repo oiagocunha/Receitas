@@ -3,6 +3,10 @@
 2- Estilização Visual e Tipografia
 3- Layout e Posicionamento */
 
+.apresentacao {
+  padding-top: 1px;
+}
+
 .receitas {
   display: grid;
   grid-template-columns: repeat(1fr);
