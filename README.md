@@ -65,10 +65,10 @@ Além disso, este projeto pode servir como base para aplicações mais complexas
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
 
-## Licença
+## Acesso Público
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este site está público e pode ser acessado através do seguinte domínio: [https://oiagocunha.github.io/Ex.Horas/](https://oiagocunha.github.io/Receitas/)
 
----
+## Desenvolvedor:
 
-Desenvolvido por [Iago Cunha](https://github.com/oiagocunha)
+[Iago Cunha](https://github.com/oiagocunha)
